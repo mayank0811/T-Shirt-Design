@@ -1,0 +1,36 @@
+.imgTshirt {
+    position: relative;
+}
+
+.logoText {
+    position: absolute;
+    top: 160px;
+    left: 272px;
+}
+
+.logoText img {
+    max-width: 300px;
+    border: #fff solid 6px;
+}
+
+.logoText p {
+    font-family: impact, Charcoal, sans-serif;
+    font-size: x-large;
+    color: white;
+}
+
+.lowertext p {
+    margin-top: 10px;
+}
+
+.tshirt-color {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tshirt-color img {
+    width: 15%;
+    height: 15%;
+}

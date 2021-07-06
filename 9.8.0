@@ -1,0 +1,8 @@
++ firebase-admin@9.10.0
+added 78 packages from 44 contributors and audited 2093 packages in 44.736s
+
+149 packages are looking for funding
+  run `npm fund` for details
+
+found 5 vulnerabilities (3 moderate, 2 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
