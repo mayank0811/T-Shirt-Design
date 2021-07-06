@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mayank0811/T-Shirt-Design/static/css/main.d64da18e.chunk.css",
+    "main.js": "/mayank0811/T-Shirt-Design/static/js/main.18d10493.chunk.js",
+    "main.js.map": "/mayank0811/T-Shirt-Design/static/js/main.18d10493.chunk.js.map",
+    "runtime-main.js": "/mayank0811/T-Shirt-Design/static/js/runtime-main.bc6c0ff4.js",
+    "runtime-main.js.map": "/mayank0811/T-Shirt-Design/static/js/runtime-main.bc6c0ff4.js.map",
+    "static/js/2.60da7bee.chunk.js": "/mayank0811/T-Shirt-Design/static/js/2.60da7bee.chunk.js",
+    "static/js/2.60da7bee.chunk.js.map": "/mayank0811/T-Shirt-Design/static/js/2.60da7bee.chunk.js.map",
+    "static/js/3.583cca6f.chunk.js": "/mayank0811/T-Shirt-Design/static/js/3.583cca6f.chunk.js",
+    "static/js/3.583cca6f.chunk.js.map": "/mayank0811/T-Shirt-Design/static/js/3.583cca6f.chunk.js.map",
+    "index.html": "/mayank0811/T-Shirt-Design/index.html",
+    "static/css/main.d64da18e.chunk.css.map": "/mayank0811/T-Shirt-Design/static/css/main.d64da18e.chunk.css.map",
+    "static/js/2.60da7bee.chunk.js.LICENSE.txt": "/mayank0811/T-Shirt-Design/static/js/2.60da7bee.chunk.js.LICENSE.txt",
+    "static/media/bgimage3.150348bb.jpg": "/mayank0811/T-Shirt-Design/static/media/bgimage3.150348bb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc6c0ff4.js",
+    "static/js/2.60da7bee.chunk.js",
+    "static/css/main.d64da18e.chunk.css",
+    "static/js/main.18d10493.chunk.js"
+  ]
+}
