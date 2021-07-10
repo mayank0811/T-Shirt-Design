@@ -3,7 +3,12 @@ import './Display.css';
 
 const Display = ({display,textsize}) => {
     return (
-        <div className="card card-content">
+        <div className="card card-content rounded shadow-lg p-3 mb-5 bg-body rounded">
+            <div className="text-center">
+                <div className="tshirtheading border-1 border rounded-pill shadow-lg p-3 mb-5 bg-body rounded">
+                        <h3>Product Display</h3>
+                </div>
+            </div>
             <div className="imgTshirt text-center">
                 <img 
                 className="img-responsive"
@@ -23,6 +28,7 @@ const Display = ({display,textsize}) => {
                     <p style={{fontSize: textsize , color:display.textcolor}}>{display.lowertext}</p>
                 </div>
             </div>
+            <br />
         </div>
     )
 }

@@ -1,0 +1,26 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/design/Display.css":
+/*!**********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/components/design/Display.css ***!
+  \**********************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".imgTshirt {\r\n    position: relative;\r\n}\r\n\r\n.logoText {\r\n    position: absolute;\r\n    top: 250px;\r\n    left: 218px;\r\n}\r\n\r\n.logoText img {\r\n    max-width: 300px;\r\n    border: #fff solid 6px;\r\n}\r\n\r\n.logoText p {\r\n    font-family: impact, Charcoal, sans-serif;\r\n    font-size: x-large;\r\n    color: white;\r\n}\r\n\r\n.lowertext p {\r\n    margin-top: 10px;\r\n}\r\n\r\n.tshirt-color {\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-between;\r\n}\r\n\r\n.tshirt-color img {\r\n    width: 15%;\r\n    height: 15%;\r\n}", "",{"version":3,"sources":["webpack://src/components/design/Display.css"],"names":[],"mappings":"AAAA;IACI,kBAAkB;AACtB;;AAEA;IACI,kBAAkB;IAClB,UAAU;IACV,WAAW;AACf;;AAEA;IACI,gBAAgB;IAChB,sBAAsB;AAC1B;;AAEA;IACI,yCAAyC;IACzC,kBAAkB;IAClB,YAAY;AAChB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,aAAa;IACb,mBAAmB;IACnB,eAAe;IACf,8BAA8B;AAClC;;AAEA;IACI,UAAU;IACV,WAAW;AACf","sourcesContent":[".imgTshirt {\r\n    position: relative;\r\n}\r\n\r\n.logoText {\r\n    position: absolute;\r\n    top: 250px;\r\n    left: 218px;\r\n}\r\n\r\n.logoText img {\r\n    max-width: 300px;\r\n    border: #fff solid 6px;\r\n}\r\n\r\n.logoText p {\r\n    font-family: impact, Charcoal, sans-serif;\r\n    font-size: x-large;\r\n    color: white;\r\n}\r\n\r\n.lowertext p {\r\n    margin-top: 10px;\r\n}\r\n\r\n.tshirt-color {\r\n    display: flex;\r\n    flex-direction: row;\r\n    flex-wrap: wrap;\r\n    justify-content: space-between;\r\n}\r\n\r\n.tshirt-color img {\r\n    width: 15%;\r\n    height: 15%;\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.8bb776b1fc581115057d.hot-update.js.map

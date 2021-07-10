@@ -2,15 +2,18 @@
     position: relative;
 }
 
+.tshirtheading {
+    border-width: 5px;
+}
 .logoText {
     position: absolute;
-    top: 160px;
-    left: 272px;
+    top: 300px;
+    left: 275px;
 }
 
 .logoText img {
-    max-width: 300px;
-    border: #fff solid 6px;
+    max-width:  300px;
+    border: black solid 2px;
 }
 
 .logoText p {

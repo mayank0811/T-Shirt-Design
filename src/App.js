@@ -2,12 +2,12 @@ import React, {Component} from 'react';
 import Dashboard from './components/dashboard/Dashboard';
 import './App.css';
 import Navbar from './components/navbar/navbar';
-//import bgimage from './bgimage.jpg';
-import bgimage3 from './bgimage3.jpg';
-//import bgimage3 from './bgimage.jpg';
+import bgimage7 from './bgimage7.jpg';
+import { BrowserRouter as Router,Route} from 'react-router-dom';
+import cart from './components/config/cart/cart';
 
 var sectionStyle = {
-  backgroundImage: `url(${bgimage3})`,
+  backgroundImage: `url(${bgimage7})`,
   backgroundRepeat: 'no-repeat',
   backgroundSize: 'cover'
 }
@@ -15,10 +15,26 @@ var sectionStyle = {
 class App extends Component {
   render() {
     return (
-      <div style = {sectionStyle}>
-      <Navbar />
-      <Dashboard />
-      </div>
+      <Router>
+        <Route exact path="/" 
+          render = { () => {
+            return (
+              <div style = {sectionStyle}>
+                <Navbar />
+                <Dashboard />
+                <div>
+                    <footer className="footer mt-auto py-4 bg-dark">
+                    <div className="container">
+                        <span className="text-muted text-right"><h6>&#169;Copyright: TShirtDesign</h6></span>
+                    </div>
+                    </footer>
+                </div>
+                </div>
+            )
+          }}
+        />
+        <Route exact path="/cart" component={cart} />
+      </Router>
     );
   }
 }
