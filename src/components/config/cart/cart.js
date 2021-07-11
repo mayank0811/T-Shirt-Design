@@ -35,7 +35,7 @@ class Project extends  Component {
                 <Link to ="/">
                 <div className="container">
                     <div className="container1 border-1 border rounded-pill shadow-lg p-3 mb-5 w-25 h-25 bg-body rounded">
-                    < img src="https://image.flaticon.com/icons/png/512/271/271218.png" alt="arrow" className="arrow-icon"/>              
+                    <img src="https://image.flaticon.com/icons/png/512/271/271218.png" alt="arrow" className="arrow-icon"/>              
                     <h4>Continue Designing</h4>
                     </div>
                 </div>
