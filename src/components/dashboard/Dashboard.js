@@ -1,18 +1,27 @@
 import React, {Component} from 'react';
 import Display from '../design/Display';
 import Settings from '../design/Setting';
+import { connect } from 'react-redux';
 import { storage } from '../config/firebaseconfi';
+//this component contains design and settins component
+
+const mapStatetoProps = (state) => {
+    return {
+        mytshirt: state.design.designs
+    }
+}
 
 class Dashboard extends Component {
+
     state = {
-        id: 1,
-        tshirtcolor: 'Black',
-        uppertext: "This is UpperText",
-        lowertext: "This is LowerText",
-        url:'',
-        textsize: 38,
-        textcolor: 'white',
-        price: '14'
+        id: this.props.mytshirt.id,
+        tshirtcolor: this.props.mytshirt.tshirtcolor,
+        uppertext: this.props.mytshirt.uppertext,
+        lowertext: this.props.mytshirt.lowertext,
+        url: this.props.mytshirt.url,
+        textsize: this.props.mytshirt.textsize,
+        textcolor: this.props.mytshirt.textcolor,
+        price: this.props.mytshirt.price
     }
 
     changeTshirtcolor = (getTshirt) => {
@@ -115,4 +124,4 @@ class Dashboard extends Component {
     }
 }
 
-export default Dashboard
+export default connect(mapStatetoProps)(Dashboard);

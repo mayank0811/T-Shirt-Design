@@ -14,7 +14,7 @@
     text-transform: capitalize;
     color: black;
     margin-left: 1rem;
-    font-weight: 400;
+    font-weight: 500;
   }
 
   .container .cart-icon {
@@ -60,8 +60,7 @@
     font-weight: bold;
     color: var(--main-color);
   }
-  
-  /* cart main div start  */
+
   
   .main-cart-section .cart-items {
     width: 100%;

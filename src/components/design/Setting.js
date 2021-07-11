@@ -2,6 +2,8 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 const urlImgBase = "https://res.cloudinary.com/dkkgmzpqd/image/upload/v1545217305/T-shirt%20Images/";
 
+//this is for controlling the designs of tshirt
+
 function Settings ({color,uppertext,lowertext,logo,textsize,textcolor,disprice}) {
         const dispatchitem = useDispatch()
         function callmethod() {
@@ -15,8 +17,8 @@ function Settings ({color,uppertext,lowertext,logo,textsize,textcolor,disprice})
                     </div>
                 </div>
                 <h4>T-Shirt Colours</h4>
-                <div onmouseover="bigImg(this)" onmouseout="normalImg(this)" className="tshirt-color">
-                    <img onmouseover="bigImg(this)" onmouseout="normalImg(this)" onClick={color} src={`${urlImgBase}black.png`} alt="black t-shirt" id="Black"></img>
+                <div className="tshirt-color">
+                    <img onClick={color} src={`${urlImgBase}black.png`} alt="black t-shirt" id="Black"></img>
                     <img onClick={color} src={`${urlImgBase}blue.png`} alt="blue t-shirt" id="Blue"></img>
                     <img onClick={color} src={`${urlImgBase}white.png`} alt="white t-shirt" id="White"></img>
                     <img onClick={color} src={`${urlImgBase}red.png`} alt="red t-shirt" id="Red"></img>

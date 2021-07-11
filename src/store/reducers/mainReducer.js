@@ -7,5 +7,4 @@ const mainReducer = combineReducers ({
     design: designReducer
 })
 
-console.log(mainReducer.design)
 export default mainReducer;

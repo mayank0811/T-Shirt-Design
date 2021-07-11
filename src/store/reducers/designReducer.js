@@ -2,15 +2,19 @@ import { ADD_item } from './actiontypes';
 import { DELETE_item } from './actiontypes';
 import { subtract } from './actiontypes';
 import { add } from './actiontypes';
+import { VIEW_item } from './actiontypes';
 
 const initialState = {
-    designs: [
-        {id: 1, name: 'Black T-Shirt', tshirtcolor: 'black'},
-        {id: 2, name: 'Blue T-Shirt', tshirtcolor: 'blue'},
-        {id: 3, name: 'White T-Shirt', tshirtcolor: 'white'},
-        {id: 4, name: 'Red T-Shirt', tshirtcolor: 'red'},
-        {id: 5, name: 'Grey T-Shirt', tshirtcolor: 'grey'}
-    ],
+    designs: {
+        id: 1,
+        tshirtcolor: 'Black',
+        uppertext: "This is UpperText",
+        lowertext: "This is LowerText",
+        url:'',
+        textsize: 38,
+        textcolor: 'white',
+        price: '14'
+    },
     newdesigns: []
 }
 
@@ -19,7 +23,7 @@ const designReducer = (state = initialState, action) => {
         case ADD_item:
             return{
                 ...state,
-               newdesigns: state.newdesigns.concat({id: state.newdesigns.length ,name: action.tshirt.tshirtcolor ,tshirtcolor: action.tshirt.tshirtcolor, price: action.tshirt.price , count: 1})
+               newdesigns: state.newdesigns.concat({id: state.newdesigns.length ,name: action.tshirt.tshirtcolor ,tshirtcolor: action.tshirt.tshirtcolor, price: action.tshirt.price , count: 1, uppertext: action.tshirt.uppertext, lowertext: action.tshirt.lowertext, url: action.tshirt.url, textsize: action.tshirt.textsize , textcolor: action.tshirt.textcolor})
             }
         case DELETE_item:
             return{
@@ -44,6 +48,12 @@ const designReducer = (state = initialState, action) => {
             return{
                 ...state,
                 newdesigns: newarray
+            }
+        }
+        case VIEW_item:{
+            return{
+                ...state,
+                designs: action.tshirt
             }
         }        
         default:
