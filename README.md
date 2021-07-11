@@ -1,70 +1,55 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# T-Shirt-Design
 
-## Available Scripts
+This is an application for designing custom T-Shirts developed in ReactJS. 
+You can use it for creating your Favourite T-Shirt.
 
-In the project directory, you can run:
 
-### `npm start`
+## Application Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Picking Colour of T-Shirt.
+- Inserting images as logos for T-Shirt.
+- Inserting ,Scaling and colouring Text.
+- Adding your customized T-Shirt in a cart.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+  
+## Screenshots of Project
+## Designing Page
+![App Screenshot](https://github.com/mayank0811/T-Shirt-Design/blob/master/public/designss.png?raw=true)
 
-### `npm test`
+## Shopping Cart
+![App Screenshot](https://github.com/mayank0811/T-Shirt-Design/blob/master/public/cartss.png?raw=true)
+## Running Locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project locally -
 
-### `npm run build`
+Clone the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  git clone https://github.com/mayank0811/T-Shirt-Design.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Go to the project directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  cd T-Shirt-Design
+```
 
-### `npm run eject`
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Start the server
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+  npm start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+  
+## Feedback
 
-## Learn More
+If you have any feedback, please reach out to me at sharma.mayank0811@gmail.com
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
